@@ -22,7 +22,11 @@ namespace TestWebsite.Controllers
         {
             return View();
         }
-
+        //Aktivere det view der bliver kliket på
+        public IActionResult login()
+        {
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
